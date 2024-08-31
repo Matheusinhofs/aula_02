@@ -27,25 +27,41 @@ import math
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+# --------------------------------------------------
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
-raio = float(input("Digite o raio do círculo: "))
+# raio = float(input("Digite o raio do círculo: "))
 
-area = 2*math.pi*(raio**2)
+# area = 2*math.pi*(raio**2)
 
-print(area)
+# print(area)
 
-area_formatada = {f"{area:.2f}"}
+# area_formatada = {f"{area:.2f}"}
 
-print(f"Área formatada = {area_formatada}")
+# print(f"Área formatada = {area_formatada}")
 
+# --------------------------------------------------
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+data_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
+
+data_separada = data_usuario.split("/")
+
+print(f"O dia é {data_separada[0]}")
+print(f"O mês é {data_separada[1]}")
+print(f"O ano é {data_separada[2]}")
+
+# --------------------------------------------------
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+
 
 # #### Booleanos (`bool`)
 
