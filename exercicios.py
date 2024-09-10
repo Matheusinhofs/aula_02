@@ -4,15 +4,34 @@ import math
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-# numero_1 = int(input("Dgitie o primeiro número: "))
+    # try:
+    #     numero_1 = int(input("Digite o primeiro número: "))
+    #     numero_2 = int(input("Digite o segundo número: "))
+
+    #     soma = numero_1 + numero_2
+    # except ValueError:
+    #     print("Tipo de dado não passível de soma, por favor digite um número")  # Imprime a mensagem de erro:
+    #     # print("Divisão por zero não aceita")
+    # else:
+    #     print(f"A soma dos números é {soma}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+
+numero_1 = float(input("Digite o primeiro número: "))
+
+if isinstance(numero_1,float):
+    resto_divisao = numero_1 % 5 
+    print(f"O resto da divisão dos números é {resto_divisao}")
+else:
+    print("Tipo de dado não compatível, por favor digite um número")  # Imprime a mensagem de erro:
+    # print("Divisão por zero não aceita")
+    
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
 
-# numero_1 = int(input("Dgitie o primeiro número: "))
-# numero_2 = int(input("Dgitie o segundo número: "))
+# numero_1 = int(input("Digite o primeiro número: "))
+# numero_2 = int(input("Digite o segundo número: "))
 
 # div_inteira = numero_1 // numero_2
 
@@ -49,13 +68,13 @@ import math
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
+    # data_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 
-data_separada = data_usuario.split("/")
+    # data_separada = data_usuario.split("/")
 
-print(f"O dia é {data_separada[0]}")
-print(f"O mês é {data_separada[1]}")
-print(f"O ano é {data_separada[2]}")
+    # print(f"O dia é {data_separada[0]}")
+    # print(f"O mês é {data_separada[1]}")
+    # print(f"O ano é {data_separada[2]}")
 
 # --------------------------------------------------
 
