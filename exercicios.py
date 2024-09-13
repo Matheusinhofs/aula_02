@@ -29,8 +29,8 @@ import math
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
 # try:
-#     numero_1 = float(input("Digite um número: "))
-#     numero_2 = float(input("Digite um segundo número: "))
+#     numero_1 = int(input("Digite um número: "))
+#     numero_2 = int(input("Digite um segundo número: "))
 #     multiplicacao = numero_1 * numero_2
 # except ValueError:
 #     print("Digite um número válido")
@@ -48,13 +48,43 @@ import math
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
+# numero_1 = int(input("Digite o primeiro número: "))
 
+# try:
+#     quadrado = numero_1 ** 2 
+# except ValueError:
+#      print("Digite um número válido")
+# else: 
+#      print(f"O quadro de {numero_1} é {quadrado}")
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+# try:
+#     numero_1 = float(input("Digite o primeiro número: "))
+#     numero_2 = float(input("Digite o segundo número: "))
+#     soma = numero_1 + numero_2
+# except ValueError:
+#     print("Digite um número válido")
+# else:
+#     print(soma)
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+# try:
+#     numero_1 = float(input("Digite o primeiro número: "))
+#     numero_2 = float(input("Digite o segundo número: "))
+#     media = (numero_1 + numero_2)/2
+# except ValueError:
+#     print("Digite um número válido")
+# else:
+#     print(media)
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
 # --------------------------------------------------
