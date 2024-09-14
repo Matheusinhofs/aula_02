@@ -83,7 +83,14 @@ import math
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
-
+# try:
+#     numero_1 = float(input("Digite a base da potência: "))
+#     numero_2 = float(input("Digite o expoente da potência: "))
+#     resultado = numero_1 ** numero_2
+# except ValueError:
+#     print("Digite um número válido")
+# else:
+#     print(f"O valor da potência é: {resultado}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
