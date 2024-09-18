@@ -94,6 +94,14 @@ import math
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
+# try:
+#     temperatura_c = float(input("Digite a temperatura em Celsius: "))
+#     temperatura_f = (temperatura_c * (9/5)) + 32
+# except ValueError:
+#     print("Digite uma temperatura válida")
+# else:
+#     print(f"O valor da temperatura em Fahrenheit é: {temperatura_f}")
+
 # --------------------------------------------------
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
@@ -111,6 +119,15 @@ import math
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+# try:
+#     nome = input("Digite uma palavra: ")
+#     nome_maiusculo = nome.upper()
+# except TypeError as e:
+#     print(e)
+# else: 
+#     print(nome_maiusculo)
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
