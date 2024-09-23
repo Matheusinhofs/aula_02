@@ -129,7 +129,19 @@ import math
 #     print(nome_maiusculo)
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+# try:
+#     nome = input("Digite seu nome completo: ")
+#     nome_minusculo = nome.lower()
+# except TypeError as e:
+#     print(e)
+# else: 
+#     print(nome_minusculo)
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+
+
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
     # data_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
@@ -144,6 +156,14 @@ import math
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
+try:
+    palavra_1 = input("Digite uma palavra: ")
+    palavra_2 = input("Digite a segunda palavra: ")
+    concatenado = palavra_1 + palavra_2
+except TypeError as e:
+    print(e)
+else: 
+    print(concatenado)
 
 
 # #### Booleanos (`bool`)
