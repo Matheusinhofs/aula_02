@@ -140,7 +140,13 @@ import math
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
-
+try:
+    frase = input("Digite uma frase: ")
+    frase_sem_espaco = frase.strip()
+except TypeError as e:
+    print(e)
+else:
+    print(frase_sem_espaco)
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
@@ -156,19 +162,22 @@ import math
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
-try:
-    palavra_1 = input("Digite uma palavra: ")
-    palavra_2 = input("Digite a segunda palavra: ")
-    concatenado = palavra_1 + palavra_2
-except TypeError as e:
-    print(e)
-else: 
-    print(concatenado)
+# try:
+#     palavra_1 = input("Digite uma palavra: ")
+#     palavra_2 = input("Digite a segunda palavra: ")
+#     concatenado = palavra_1 + palavra_2
+# except TypeError as e:
+#     print(e)
+# else: 
+#     print(concatenado)
 
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
