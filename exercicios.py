@@ -176,16 +176,26 @@ import math
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 
-try:
-    bool_1 = input("Digite o primeiro booleano: ")
-    bool_2 = input("Digite o segundo booleano: ")
-    concatenado = bool_1 and bool_2
-except TypeError as e:
-    print(e)
-else: 
-    print(concatenado)
+# try:
+#     bool_1 = False
+#     bool_2 = True
+#     concatenado = bool_1 and bool_2
+# except TypeError as e:
+#     print(e)
+# else: 
+#     print(concatenado)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+# try:
+#     bool_1 = False
+#     bool_2 = True
+#     concatenado = bool_1 or bool_2
+# except TypeError as e:
+#     print(e)
+# else: 
+#     print(concatenado)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
