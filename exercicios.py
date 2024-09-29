@@ -197,6 +197,17 @@ import math
 #     print(concatenado)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+# Se só der um enter ele retorna falso, ai no not funciona
+
+# try:
+#     bool_2 = bool(input("Digite um valor booleano:"))
+#     inverter = not bool_2
+# except TypeError as e:
+#     print(e)
+# else: 
+#     print(inverter)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
