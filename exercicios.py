@@ -243,6 +243,15 @@ import math
 # garantir que a entrada seja numérica, tratando qualquer ValueError.
 # Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
 
+
+try:
+    celsius = float(input("Digite a temperatura em Celsius: "))
+    fahrenheit = (1.8 * celsius) + 32
+except ValueError:
+    print("Digite um valor correto animal")
+else:
+    print(f"Temperatura final é de {fahrenheit} graus Fahrenheit")
+
 # 22: Verificador de Palíndromo
 
 # Crie um programa que verifica se uma palavra ou frase é um palíndromo (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações). 
