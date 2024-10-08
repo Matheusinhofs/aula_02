@@ -257,6 +257,13 @@ import math
 # Utilize try-except para garantir que a entrada seja uma string. 
 # Dica: Utilize a função isinstance() para verificar o tipo da entrada.
 
+# palavra = input("Digite a palavra ou frase que é um palíndromo: ")
+# palavra_invertida = palavra[::-1]
+# if palavra == palavra_invertida:
+#     print(f"A palavra {palavra} é um palíndromo")
+# else:
+#     print("A palavra não é um palíndromo")
+
 # 23: Calculadora Simples
 
 # Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. 
