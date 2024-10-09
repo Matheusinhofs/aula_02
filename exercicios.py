@@ -271,6 +271,28 @@ import math
 # Utilize if-elif-else para realizar a operação matemática baseada no operador fornecido. 
 # Imprima o resultado ou uma mensagem de erro apropriada.
 
+# try:
+#     operacao = input("Digite a operação desejada: ")
+#     numero_01 = float(input("Digite o primeiro número da operação: "))
+#     numero_02 = float(input("Digite o segundo número da operação: "))
+
+#     if operacao == "+":
+#         resultado = numero_01 + numero_02
+#         print(f"O resultado da sua operação é ", resultado)
+#     elif operacao == "-":
+#         resultado = numero_01 - numero_02
+#         print(f"O resultado da sua operação é ", resultado)
+#     elif operacao == "/" and numero_02 != 0:
+#         resultado = numero_01 / numero_02
+#         print(f"O resultado da sua operação é ", resultado)
+#     elif operacao == "*":
+#         resultado = numero_01 * numero_02
+#         print(f"O resultado da sua operação é ", resultado)
+#     else: 
+#         print("Operação Inválida ou divisão por zero")
+# except ValueError:
+#     print("Digite um valor válido")
+
 # 24: Classificador de Números
 
 # Escreva um programa que solicite ao usuário para digitar um número.
