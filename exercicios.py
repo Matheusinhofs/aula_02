@@ -300,6 +300,25 @@ import math
 # e utilize if-elif-else para classificar o número como "positivo", "negativo" ou "zero". 
 # Adicionalmente, identifique se o número é "par" ou "ímpar".
 
+# try:
+#     numero_01 = float(input("Digite um número: "))
+#     if numero_01 > 0:
+#         print("Número positivo!!!")
+#     elif numero_01 == 0:
+#         print("Número igual a zero!!!")
+#     else:
+#         print("Número negativo!!!")
+    
+#     resto = numero_01 % 2
+
+#     if resto == 0:
+#         print("Número é par!!!")
+#     else:
+#         print("Número é ímpar!!!")
+# except ValueError:
+#     print("Entrada não numérica")    
+    
+
 # 25: Conversão de Tipo com Validação
 
 # Crie um script que solicite ao usuário uma lista de números separados por vírgula.
