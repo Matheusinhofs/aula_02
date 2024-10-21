@@ -327,3 +327,31 @@ import math
 # e validar que cada elemento da lista convertida é um inteiro. 
 # Se a conversão falhar ou um elemento não for um inteiro, imprima uma mensagem de erro. 
 # Se a conversão for bem-sucedida para todos os elementos, imprima a lista de inteiros.
+
+# lista_solicitada: list = []
+# lista_numeros = []
+
+# lista_usuario = input("Digite uma lista de números: ")
+
+# try:
+#     lista_solicitada = list(lista_usuario)
+
+#     for i in lista_solicitada:
+#         if i != ",":
+#             lista_numeros.append(int(i))
+# except TypeError as e:
+#     print(e)
+# else:
+#     print(lista_numeros)
+
+# RESPOSTA LUCIANO
+
+# entrada_lista = input("Digite uma lista de números separados por vírgula: ")
+# numeros_str = entrada_lista.split(",")
+# numeros_int = []
+# try:
+#     for num in numeros_str:
+#         numeros_int.append(int(num.strip()))
+#     print("Lista de inteiros:", numeros_int)
+# except ValueError:
+#     print("Erro: certifique-se de que todos os elementos são números inteiros válidos.")
